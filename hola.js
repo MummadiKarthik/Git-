@@ -33,3 +33,6 @@ let as=[9,23,14,74]
 let ap=s.filters(kaar)
 
 console.log(ap)
+
+let sd=new Function('a','b','return a+b');
+console.log(sd(34,34))
