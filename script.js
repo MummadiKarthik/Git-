@@ -11,8 +11,8 @@ if(!Array.prototype.maps){
 function kar(a){
    return a*3;
 }
-let s=[9,23,14,74]
-let p=s.maps(kar)
+let aas=[9,23,14,74]
+let p=aas.maps(kar)
 
 console.log(p)
 
