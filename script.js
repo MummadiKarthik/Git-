@@ -26,6 +26,31 @@ if(!Array.prototype.filters){
     }
 }
 
+ let s={
+    name:"karthik",
+    id:24
+}
+if(!Function.prototype.bind){
+    Function.prototype.bind=function(context,...args){
+
+     context.display = this;
+     let fn=context.display;
+     return function(){
+        fn.call(context,...args);
+        
+      }
+     }
+}
+function bro(college, roll){
+    console.log("college is "+college+" and roll number is "+roll)
+
+}
+
+let sa=bro.bind(s,"MRITS",34)
+
+sa()
+ 
+
 function kaar(a){
    return a%2==0?0:a;
 }
