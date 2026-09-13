@@ -1,3 +1,4 @@
+/*implement*/
 class Calculator {
   add(a, b, c) {
     if (c !== undefined) return a + b + c;
