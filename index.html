@@ -6,21 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <video src="" width="500" height="500" autoplay controls muted></video>
-    <button onclick="kar()" type="button">Click</button>
-    <button onclick="bar()">Exit</button>
-    <input type="file" name="" id="file">
-    <script>
-        function kar(){
-            document.documentElement.requestFullscreen()
-        }
-        function bar(){
-            document.documentElement.exitFullScreen();
-        }
-      navigator.mediaDevices.getUserMedia({
-        video:true,
-        audio:true
-      }).then((s)=>document.querySelector("video").srcObject=s)
-    </script>
+    
 </body>
 </html>
