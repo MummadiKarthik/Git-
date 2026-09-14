@@ -1,3 +1,4 @@
+//another text 
 function kar(a){
     return function(b){
         return function(c){
